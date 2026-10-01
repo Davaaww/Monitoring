@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Beranda - Portal Monitoring</title>
+    <style>
+        :root { --primary-color: #0b3d91; --secondary-color: #1e5aab; --text-main: #333333; --bg-light: #f8f9fa; }
+        body { font-family: 'Segoe UI', Roboto, Arial, sans-serif; margin: 0; padding: 20px; color: var(--text-main); background-color: #f4f7f6; }
+        .portal-card { max-width: 800px; margin: 40px auto; background-color: #ffffff; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); overflow: hidden; border: 1px solid #e0e0e0; }
+        .portal-header { background-color: var(--primary-color); color: #ffffff; padding: 24px; text-align: center; border-bottom: 4px solid #f2a900; }
+        .portal-header h2 { margin: 0; font-size: 24px; font-weight: 600; }
+        .portal-content { padding: 30px; }
+        .intro-text { font-size: 16px; line-height: 1.6; text-align: justify; margin-bottom: 24px; }
+        .btn-group-horizontal { display: flex; gap: 15px; justify-content: center; flex-wrap: wrap; }
+        .btn-primary { background-color: var(--primary-color); color: #ffffff; border: none; padding: 14px 24px; font-size: 16px; font-weight: 600; border-radius: 6px; cursor: pointer; text-decoration: none; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background 0.3s; }
+        .btn-primary:hover { background-color: var(--secondary-color); transform: translateY(-1px); }
+        .btn-disabled { background-color: #cccccc; color: #666666; border: none; padding: 14px 24px; font-size: 16px; font-weight: 600; border-radius: 6px; cursor: not-allowed; text-align: center; }
+    </style>
+</head>
+<body>
+    <div class="portal-card">
+        <header class="portal-header">
+            <h2>PORTAL SISTEM MONITORING DAN EVALUASI</h2>
+        </header>
+        <div class="portal-content">
+            <p class="intro-text">
+                Selamat datang di Portal Sistem Monitoring dan Evaluasi Terpadu. Sistem ini dirancang untuk memfasilitasi pengumpulan data, pengawasan, serta evaluasi kinerja dan mutu layanan secara sistematis, akuntabel, dan transparan.
+            </p>
+            
+            <!-- menu links -->
+            <div class="btn-group-horizontal">
+                <a href="Kuantitatif.html" class="btn-primary">MODUL KUANTITATIF</a>
+                <a href="Kualitatif.php" class="btn-primary">MODUL KUALITATIF</a>
+                <a href="Monitoring.php" class="btn-primary">MONITORING</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
